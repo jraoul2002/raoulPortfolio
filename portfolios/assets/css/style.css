@@ -1,0 +1,498 @@
+/*
+==========================================
+    Header Area
+==========================================
+*/
+
+.section-header h2 {
+  font-size: 36pt;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.section-header h2 span {
+  color: #583bd8;
+}
+.content-top-space {
+  margin-top: 70px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.header-main {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+.header-main::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #0e0d0d99;
+  opacity: 0.49;
+  z-index: -1;
+}
+button.navbar-toggler {
+  color: #fff;
+  font-size: 35px;
+}
+.main-menu {
+  background: #232322;
+}
+
+.main-menu ul li {
+  float: left;
+  margin-left: 26px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.main-menu ul li a {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: raleway;
+  font-weight: 500;
+}
+.main-menu ul li a:hover {
+  color: red;
+}
+.header-img {
+  background: url("../../img/heroArea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.header-img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  opacity: 0.42;
+  z-index: -1;
+}
+.d-table {
+  display: table;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+.d-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.header-img,
+.container,
+.row,
+.col-md-12 {
+  height: 100%;
+}
+.header-content {
+  color: white;
+  margin-top: 95px;
+}
+.header-content h1 {
+  font-size: 60px;
+  font-family: raleway;
+  font-weight: 500;
+}
+.header-content h1 span {
+  color: #1fc0e9;
+  font-weight: 700;
+}
+.header-content p {
+  width: 94%;
+  margin: 40px auto 50px auto;
+  font-family: raleway;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header-content a {
+  text-decoration: none;
+  color: #fff;
+  background: #ff0000;
+  padding: 10px 32px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: raleway;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.header-content a:hover {
+  color: #ff0000;
+  background: #fff;
+}
+.section-header h2 {
+  position: relative;
+  font-family: raleway;
+  font-weight: 400;
+}
+.section-header h2:after {
+  position: absolute;
+  content: "";
+  width: 156px;
+  height: 1px;
+  background: #ff0000;
+  top: 100%;
+  left: 50%;
+  margin-left: -78px;
+  margin-top: 20px;
+}
+.section-header h2::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #ff0000;
+  border-radius: 50%;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: 12px;
+}
+
+/*
+==========================================
+    About Section
+==========================================
+*/
+
+.nandine-about {
+  background: #edf7e2;
+}
+.about-left {
+  position: relative;
+  text-align: center;
+}
+
+.about-left img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+==========================================
+    Skill Area
+==========================================
+*/
+.skill {
+  background: #dfeaf5;
+}
+.skill-left h3 {
+  color: #2d2d2d;
+  font-size: 24px;
+  font-weight: 60000;
+  font-family: raleway;
+}
+.skill-left p {
+  font-weight: 300;
+  color: #515151;
+  line-height: 26px;
+  margin-top: 20px;
+}
+.skill-left p:last-child {
+  margin-top: 30px;
+}
+.skill-right h3 {
+  font-size: 24px;
+  color: #252525;
+  font-family: raleway;
+  font-weight: 400;
+}
+
+.skill-right p {
+  font-weight: 300;
+  line-height: 26px;
+  color: #333;
+  margin-top: 18px;
+}
+.nandine-skill-bar p {
+  margin-top: 0px;
+}
+.skillbar {
+  background: #333;
+  height: 18px;
+  border-radius: 30px;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.skillbar-bar {
+  background: #ff0000 !important;
+  height: 9px;
+  position: absolute;
+  top: 4.5px;
+  left: 8px;
+  border-radius: 30px;
+}
+span.skill-bar-percent {
+  position: absolute;
+  color: #fff;
+  top: -7px;
+}
+.skill-bar-title {
+  color: #282828;
+  font-size: 14pt;
+  font-family: raleway;
+  font-weight: 400;
+  margin-bottom: -4px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#myImg:hover {
+  opacity: 0.8;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 65px;
+  right: 300px;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/*
+==========================================
+   Portfolio Area
+==========================================
+*/
+.portfolio-title {
+  margin-bottom: 49px;
+}
+.portfolio-title ul {
+  display: inline;
+}
+
+.portfolio-title ul li {
+  display: inline-block;
+  margin-left: 23px;
+  margin-top: 10px;
+}
+
+.portfolio-title ul li a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14pt;
+  font-family: raleway;
+  font-weight: 400;
+}
+.portfolioCard {
+  position: relative;
+  margin-bottom: 34px;
+}
+
+.portfolioCard:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*
+==========================================
+   Contact Area
+==========================================
+*/
+.contact {
+  background: #464645;
+}
+.contact .section-header {
+  color: #fff;
+}
+.name input {
+  height: 50px;
+  width: 96%;
+  display: inline-block;
+  padding: 2px 22px;
+  margin-left: 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #c2c1c1;
+  font-family: raleway;
+  margin-bottom: 35px;
+}
+.message input {
+  width: 98%;
+  height: 250px;
+  background: transparent;
+  margin-left: 9px;
+  padding-left: 30px;
+  padding-bottom: 155px;
+  border: 1px solid #fff;
+  color: #c2c1c1;
+}
+.submitbtn button {
+  background: #ff0000;
+  margin-left: 8px;
+  margin-top: 18px;
+  color: #fff;
+  font-family: raleway;
+  font-size: 17pt;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.submitbtn button:hover {
+  color: #ff0000;
+  background: #fff;
+}
+.footer {
+  background: #1a1a1a;
+}
+.footer-left ul li {
+  display: inline;
+  margin-right: 18px;
+}
+
+.footer-left ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15pt;
+  display: inline-block;
+  padding: 10px 0px;
+}
+.footer-right p {
+  color: #fff;
+  font-size: 14pt;
+  font-family: raleway;
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  display: block;
+  padding: 10px 15px;
+  width: 500px;
+  border: 1px solid #ddd;
+}
+.contact-form button {
+  background: #252525;
+  color: #fff;
+  border: none;
+  font-size: 14pt;
+  padding: 7px 7px;
+  transition: 0.3s;
+  border: 1px solid #252525;
+}
+
+.contact-form button:hover {
+  color: #252525;
+  background: #fff;
+}
